@@ -2,28 +2,25 @@ div {
     width: 200px;
     height: 200px;
     background-color: #222;
+    position: absolute;
 }
 
 div:nth-child(1) {
-    position: absolute;
     top: 0;
     left: 0;
 }
 
 div:nth-child(2) {
-    position: absolute;
     top: 0;
     right: 0;
 }
 
 div:nth-child(3) {
-    position: absolute;
     bottom: 0;
     left: 0;
 }
 
 div:nth-child(4) {
-    position: absolute;
     bottom: 0;
     right: 0;
 }
